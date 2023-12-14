@@ -13,9 +13,8 @@ const UserHeaderNav = () => {
   const navigate = useNavigate();
   function handleLogout() {
     userLogout();
-    navigate('./login');
+    navigate('/login');
   }
-
   const mobile = useMedia('(max-width: 40rem)');
   const [mobileMenu, setMobileMenu] = React.useState(false);
 
@@ -35,6 +34,7 @@ const UserHeaderNav = () => {
           onClick={() => setMobileMenu(!mobileMenu)}
         ></button>
       )}
+
       <nav
         className={`${mobile ? styles.navMobile : styles.nav} ${
           mobileMenu && styles.navMobileActive

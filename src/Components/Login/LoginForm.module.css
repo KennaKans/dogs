@@ -27,12 +27,12 @@
 }
 
 .subtitle {
-  font-family: var(--second-type);
+  font-family: var(--type-second);
   line-height: 1;
   font-size: 2rem;
 }
 
-.subtitle::after{
+.subtitle::after {
   content: '';
   display: block;
   background: #ddd;

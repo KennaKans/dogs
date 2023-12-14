@@ -7,7 +7,7 @@
 }
 
 @media (max-width: 40rem) {
-  .feeed {
+  .feed {
     grid-template-columns: repeat(2, 1fr);
   }
 }
