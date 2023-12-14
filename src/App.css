@@ -8,16 +8,21 @@ body {
   padding-top: 4rem;
   margin: 0px;
   color: #333;
-  --main-type: Helvetica, Arial, sans-serif;
-  --second-type: 'Spectral', Georgia;
-  font-family: var(--main-type);
+  --type-first: Helvetica, Arial, sans-serif;
+  --type-second: 'Spectral', Georgia;
+  font-family: var(--type-first);
 }
 
-h1, h2, h3, h4, p {
-margin: 0px;
-} 
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0px;
+}
 
-ul, li {
+ul,
+li {
   list-style: none;
   padding: 0px;
   margin: 0px;
@@ -28,10 +33,11 @@ img {
   max-width: 100%;
 }
 
-button, input {
+button,
+input {
   display: block;
   font-size: 1rem;
-  font-family: var(--main-type);
+  font-family: var(--type-first);
   color: #333;
 }
 
@@ -51,7 +57,7 @@ a {
 }
 
 .title {
-  font-family: var(--second-type);
+  font-family: var(--type-second);
   line-height: 1;
   font-size: 3rem;
   margin: 1rem 0;
@@ -75,7 +81,7 @@ a {
 .animeLeft {
   opacity: 0;
   transform: translateX(-20px);
-  animation:  animeLeft .3s forwards;
+  animation: animeLeft 0.3s forwards;
 }
 
 @keyframes animeLeft {

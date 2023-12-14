@@ -16,7 +16,7 @@ const LoginCreate = () => {
   const { loading, error, request } = useFetch();
 
   async function handleSubmit(event) {
-    event.preventDefaut();
+    event.preventDefault();
     const { url, options } = USER_POST({
       username: username.value,
       email: email.value,

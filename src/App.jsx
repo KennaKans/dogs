@@ -9,7 +9,7 @@ import { UserStorage } from './UserContext';
 import User from './Components/User/User';
 import ProtectedRoute from './Components/Helper/ProtectedRoute';
 
-const App = () => {
+function App() {
   return (
     <div>
       <BrowserRouter>
@@ -32,6 +32,6 @@ const App = () => {
       </BrowserRouter>
     </div>
   );
-};
+}
 
 export default App;
