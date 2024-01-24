@@ -4,7 +4,7 @@ Project created during the React Complete course by Origamid.
 
 Languages: JavaScript, HTML & CSS. 
 
-Tools: Visual Studio Code, React, Vite, ESLint, Babel, NPM & Git. 
+Tools: Visual Studio Code, React, Vite, ESLint, Babel, NPM, Node & Git. 
 
 - Avaliable at: https://kennakans.github.io/dogs/
 
